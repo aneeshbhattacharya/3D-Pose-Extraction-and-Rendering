@@ -7,7 +7,7 @@
 ### Pose Structure
 The skeleton joints extracted from this respository look like the following: <br>
 <p align="center">
-  <img src="data/human_pose_estimation_3d_demo.jpg" />
+  <img src="./IMG_0520.jpg" />
 </p>
 
 Poses extracted from each frame are of the shape (18,3) where each joint 'n' has the 3D coordinate (n,3). <br>
