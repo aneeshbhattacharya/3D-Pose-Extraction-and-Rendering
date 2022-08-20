@@ -25,7 +25,10 @@ Extracted poses will be saved in the folder './POSES'
 python plot_generated.py --joints joints.npy --music music.mp3 --duration 10
 python join_sound.py output_name
 ```
+Output: output_name.mp4
+
 #### Without music
 ```
 python plot_generated.py --joints joints.npy
 ```
+Output: rendered.mp4
