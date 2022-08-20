@@ -10,6 +10,11 @@ The skeleton joints extracted from this respository look like the following: <br
   <img src="./IMG_0520.jpg" width="300"/>
 </p>
 
-Poses extracted from each frame are of the shape (18,3) where each joint 'n' has the 3D coordinate (n,3). <br>
+Poses extracted from each frame are of the shape (18,3) where each joint 'n' has the 3D coordinate (n,3). 
+
+### Extract 3D Poses
+```
+python pose_extract.py --model human-pose-estimation-3d.pth
+```
 
 
