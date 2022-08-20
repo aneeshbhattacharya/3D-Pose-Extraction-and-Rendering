@@ -32,3 +32,7 @@ Output: output_name.mp4
 python plot_generated.py --joints joints.npy
 ```
 Output: rendered.mp4
+
+<p align="center">
+  <img src="./output3.gif" width="300"/>
+</p>
