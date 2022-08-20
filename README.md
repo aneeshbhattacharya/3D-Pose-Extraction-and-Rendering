@@ -16,5 +16,6 @@ Poses extracted from each frame are of the shape (18,3) where each joint 'n' has
 ```
 python pose_extract.py --model human-pose-estimation-3d.pth --video video_path
 ```
+Extracted poses will be saved in the folder './POSES'
 
 
