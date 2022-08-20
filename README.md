@@ -18,4 +18,14 @@ python pose_extract.py --model human-pose-estimation-3d.pth --video video_path
 ```
 Extracted poses will be saved in the folder './POSES'
 
-
+### Render 3D Pose Videos
+#### With music
+--duration: duration of song to crop (in seconds)
+```
+python plot_generated.py --joints joints.npy --music music.mp3 --duration 10
+python join_sound.py output_name
+```
+#### Without music
+```
+python plot_generated.py --joints joints.npy
+```
